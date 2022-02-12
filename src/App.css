@@ -286,7 +286,7 @@ a {
   }
 }
 
-@media (max-width: 385px) {
+@media (max-width: 390px) {
   a.nav-logo {
     font-size: 23px;
   }
