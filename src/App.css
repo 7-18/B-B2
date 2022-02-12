@@ -38,12 +38,17 @@ Nav {
   transition: 0.5s;
 }
 
+button.navbar-toggler.collapsed {
+  border: none !important;
+}
 .navbar-toggler:focus {
   box-shadow: none !important;
+  border: none !important;
 }
 
 .navbar-toggler:active {
   box-shadow: none !important;
+  border: none !important;
 }
 
 /* SECTION 1 - MAIN */
@@ -283,6 +288,6 @@ a {
 
 @media (max-width: 385px) {
   a.nav-logo {
-    font-size: 25px;
+    font-size: 23px;
   }
 }
