@@ -24,7 +24,7 @@ Nav {
 .nav-link {
   color: #01416f !important;
   font-size: 15px;
-  margin: 0px 7px !important;
+  margin: 0px 4px !important;
   border-radius: 3px;
 }
 
@@ -39,11 +39,11 @@ Nav {
 }
 
 .navbar-toggler:focus {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 .navbar-toggler:active {
-  box-shadow: none;
+  box-shadow: none !important;
 }
 
 /* SECTION 1 - MAIN */
@@ -246,11 +246,6 @@ a {
 /* RWD */
 
 @media (max-width: 992px) {
-  ul.navbar-nav {
-    background-color: #444444;
-    text-align: center;
-    transition: all 0.5s;
-  }
   a.nav-link {
     font-size: 20px;
     color: #fff;
@@ -288,14 +283,6 @@ a {
 
 @media (max-width: 385px) {
   a.nav-logo {
-    font-size: 28px;
-    padding-left: 20px;
-  }
-}
-
-@media (max-width: 385px) {
-  a.nav-logo {
     font-size: 25px;
-    padding-left: 20px;
   }
 }
