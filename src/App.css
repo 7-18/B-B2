@@ -296,4 +296,7 @@ a {
   a.nav-logo {
     font-size: 20px;
   }
+  .navbar > .container {
+    justify-content: space-around !important;
+  }
 }
