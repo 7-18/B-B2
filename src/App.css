@@ -297,7 +297,7 @@ a {
 
 @media (max-width: 280px) {
   a.nav-logo {
-    font-size: 15px !important;
+    font-size: 23px;
   }
   .navbar > .container {
     justify-content: space-around !important;
