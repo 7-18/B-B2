@@ -290,6 +290,9 @@ a {
   a.nav-logo {
     font-size: 23px;
   }
+  .navbar > .container {
+    justify-content: space-around !important;
+  }
 }
 
 @media (max-width: 280px) {

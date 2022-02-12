@@ -12,15 +12,17 @@ class Header extends Component {
           <Navbar.Toggle aria-controls="navbar-school-sm" />
           <Navbar.Collapse id="navbar-school-sm">
             <Nav className="container justify-content-end text-center">
-                <Nav.Link className="active" href="/">Welcome</Nav.Link>
+              <Nav.Link className="active" href="/">
+                Welcome
+              </Nav.Link>
 
-                <Nav.Link href="/">About Us</Nav.Link>
+              <Nav.Link href="/">About Us</Nav.Link>
 
-                <Nav.Link href="/">Academics</Nav.Link>
+              <Nav.Link href="/">Academics</Nav.Link>
 
-                <Nav.Link href="/">Admissions</Nav.Link>
+              <Nav.Link href="/">Admissions</Nav.Link>
 
-                <Nav.Link href="/">Contact Us</Nav.Link>
+              <Nav.Link href="/">Contact Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
